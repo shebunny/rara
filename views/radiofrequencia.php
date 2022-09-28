@@ -1,0 +1,114 @@
+<style>
+.box-contain{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+#blkclv .box-contain{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+}
+#cnttxt {
+    padding: 80px 0 40px;
+}
+#cnttxt p{
+    line-height: 24px;
+    margin: 0 0 20px;
+    color:#6C6969;
+}
+.box-txt{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+#cnttxt .box-txt h1, .box-txt h2 {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.head-more{
+    color: var(--rosa-4);
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+display: inline-block;
+padding: 12px 30px;
+transition: .3s;
+border-radius: 10px;
+border: solid 1px var(--rosa-4);
+background: red;
+}
+</style>
+
+<div class="gaf-12">
+    <div class="gaf-12" style="">
+        <div class="gaf-12">
+            <div class="gaf-12">
+                
+                <div class="gaf-12" id="blkclv">
+                    <div class="box-img">
+                        <div style="max-height: 400px;">
+                            <img src="<?php echo BASE_PASTA;?>assets/imagens/tratamentos/womam_relx.webp" style="width: 100%;" >
+                        </div>
+                        
+                    </div>
+                    <div class="box-contain">
+                        <div class="">
+                            <div class="box-header t-center">
+                                <h1>radiofrequencia</h1>
+                                <span style="color:#000;">Tratamentos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="gaf-12" style="background:#fff;">
+                    <div class="z-5"> <div style="padding: 0px 0 40px;">
+                    <div id="cnttxt">
+                        <div class="box-txt" style="margin-bottom: 40px;">
+                            <h2>Como funciona</h2>
+                            <p style="font-size: 14px;"><span style="font-weight: 400;">
+                                
+                                A radiofrequencia é um tratamento estetico utilizado no combate a flacidez do rosto ou corpo, gordura localizada e tambem celulite, sendo um metodo seguro e com efeitos duradouros
+                                O aparelho radiofrequencia eleva temperatura da pele e do musculo, promovendo a contracao do colageno e favorecendo a sua producao, dando assim mais sustentacao e firmeza á pele. Os resultados podem ser observados logo nos primeiros dias apos a primeira sessao sendo assim progressivo, por isso quanto mais sessoes mais resultados.
+                            </span></p>
+                            
+                            <h2>Indicaoes</h2>
+                            - diminuir rugas
+                            - melhorar a aparencia da pele
+                            - melhorar a qualidade do colagenos e da elastina
+                            - melhorar a microcirculação
+                            - melhorar a hidratacao da pele
+                            - aumentar a oxigenacao
+                            - acelerar e eliminar as toxinas
+                            - reduzir celulite
+                            - melhorar  a aparencia das cicatrizes
+                            - combater a gordura localizada
+                            
+                        </div>
+                        
+                        <div class="gaf-12"><div class="z-5"><div class="head-more">Agende agora mesmo</div></div></div>
+                        
+                    </div>
+                    </div></div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</div>
+
